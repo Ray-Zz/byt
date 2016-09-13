@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6,label,p{
   margin-top: 1.5em;
 }
 
-.box_1 h3{
+.box_1 h4{
   color: #fff;
   font-size: 1em;
   padding: 0px;
@@ -85,10 +85,10 @@ h1,h2,h3,h4,h5,h6,label,p{
   display: inline-block;
 }
 .header{
-    /*background: url(../images/banner.jpg) no-repeat 0px 0px;*/
+    background: url(../images/banner1.jpg) no-repeat 0px 0px;
     width: 100%;
-    /*background-size: cover;*/
-    min-height: 704px;
+    background-size: cover;
+    min-height: 404px;
     display: block;
 }
 .header5 {
@@ -180,7 +180,7 @@ ul.support-right li i.tele {
 .banner {
   text-align: center;
   width: 100%;
-  /*margin: 11% auto;*/
+  height: 50%;
 }
 .banner-top{
 		background: rgba(255, 93, 86, 0.2);
@@ -440,13 +440,13 @@ span.dollor{
 }
 /*----*/
 .goggles {
-	padding: 5em 0 0;
+	padding: 2em 0 0;
 }
 .goggles h2 {
   color: #000;
   font-size: 3em;
   text-align: center;
-  padding: 0em 0 .7em;
+  /*padding: 0em 0 .7em;*/
 }
 .product{
 	padding:6em 0px;
@@ -515,9 +515,9 @@ span.dollor{
 .product-one:nth-child(1){
 	margin-top:0;
 }
-.p-one h4{
+.p-one h3{
 color: #242424;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 600;
   margin: 20px 0 0 0;
     padding: 0;
@@ -4308,11 +4308,14 @@ li.ring-in img{
 
 /*add style*/
 .company-intro,.company-culture,.manager-intro,.develop{
-	padding-bottom: 5em;
+	padding-bottom: 3em;
 }
-.company-intro,.manager-intro{
+.product-info,.manager-intro,.footer-section{
+	background: #F7F7F7;
+}
+/*{
 	background: #eee; 
-}
+}*/
 
 .company-intro p,.company-culture p,.manager-intro p{
 	padding: 0 40px;
@@ -4342,14 +4345,14 @@ li.ring-in img{
     cursor: pointer;
 }
 
-.develop li:hover h4{
+.develop li:hover h3{
     color: #f00;
 }
 
 .develop p{
     font-size: 16px;
     line-height: 30px;
-    color: #f00;
+    /*color: #f00;*/
     text-indent: 2em;
    display: none;
     transition: 0.5s all;
@@ -4376,7 +4379,7 @@ li.ring-in img{
 }
 .header-top{
     position: fixed;
-    top: 61px;
+    /*top: 61px;*/
     left: 0;
     right: 0;
     z-index: 1;
@@ -4384,5 +4387,6 @@ li.ring-in img{
 .carousel-control{
     background-image: none !important;
     top: 50%;
+    font-size: 33px;
     /*margin-top: -225px;*/
 }
